@@ -16,7 +16,7 @@ We use both Omnivore-L and EgoVLPv2 video features. They should be located at ./
 You can extract them or directly download them in the next link.
 
 ## Model 
-It is necessary to locate the EgoVLPv2 weights to extract text features in BayesianVSLNet/NaQ/VSLNet_Bayesian/model/EgoVLP_weights. You can find a checkpoint of the complete model at .
+It is necessary to locate the EgoVLPv2 weights to extract text features in BayesianVSLNet/NaQ/VSLNet_Bayesian/model/EgoVLP_weights.
 
 ### Train
 ```ruby
