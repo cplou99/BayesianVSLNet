@@ -1,4 +1,4 @@
-#   BayesianVSLNet - Ego4D Step Grounding Challenge CVPR24 :trophy: 
+# BayesianVSLNet - Ego4D Step Grounding Challenge CVPR24 :trophy: 
 :soon:: We will release checkpoints and pre-extracted video features.
 
 [[ArXiv]](https://arxiv.org/abs/2406.09575) [[Leaderboard]](https://eval.ai/web/challenges/challenge-page/2188/leaderboard/5405)
