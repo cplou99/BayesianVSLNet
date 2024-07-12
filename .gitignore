@@ -1,4 +1,9 @@
-/NaQ3/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_text_model_and_proj.pth
-/NaQ3/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_text_model.pth
-/NaQ3/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_txt_proj.pth
-/NaQ3/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_vid_proj.pth
+/NaQ/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_text_model_and_proj.pth
+/NaQ/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_text_model.pth
+/NaQ/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_txt_proj.pth
+/NaQ/VSLNet_Bayesian/model/EgoVLP_weights/EgoVLP_vid_proj.pth
+/ego4d-goalstep2/step_grounding/data/features/EgoVLPv2_video_NO_head/
+/ego4d-goalstep2/step_grounding/data/features/EgoVLPv2_video_with_head/
+/ego4d-goalstep2/step_grounding/data/features/omnivore_video_swinl/
+/ego4d-goalstep2/step_grounding/experiments/
+/ego4d-goalstep2/step_grounding/wandb/
