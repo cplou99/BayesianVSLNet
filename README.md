@@ -22,8 +22,7 @@ We build our approach BayesianVSLNet: Bayesian temporal-order priors for test ti
 ## Install
 ```ruby
 git clone https://github.com/cplou99/BayesianVSLNet
-conda env create -f environment.yml
-conda activate goalstep
+pip install -r requirements.txt
 ```
 
 ## Video Features
