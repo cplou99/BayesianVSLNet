@@ -1,0 +1,1 @@
+This folder should contain two subfolders with the video features: EgoVLPv2_video_NO_head and omnivore_video_swinl. 
