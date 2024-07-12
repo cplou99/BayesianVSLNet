@@ -7,6 +7,7 @@ This code is built over two other repos (NaQ and ego4d-goalstep). From there, we
 ```ruby
 git clone https://github.com/cplou99/BayesianVSLNet
 conda env create -f environment.yml
+conda activate goalstep
 ```
 
 ## Video Features
