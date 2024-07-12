@@ -1,6 +1,7 @@
 # BayesianVSLNet
 
-CVPR2024 Ego4D Step Grounding Challenge Winner
+CVPR2024 Ego4D Step Grounding Challenge Winner.
+
 This code is built over two other repos (NaQ and ego4d-goalstep). From there, we build our approach BayesianVSLNet: Bayesian temporal-order priors for test time refinement. Please, review the arxiv version for further details.
 
 ## Install
