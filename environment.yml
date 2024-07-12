@@ -1,4 +1,4 @@
-name: ego_exo
+name: goalstep
 channels:
   - pytorch
   - defaults
