@@ -79,23 +79,32 @@ def evaluate_nlq_performance(
     """Evalutes the performances."""
     gt_dict = {}
     num_gt_queries = 0
-
+    
+    
     for video_datum in ground_truth["videos"]:
         for clip_datum in video_datum["clips"]:
             clip_uid = clip_datum["clip_uid"]
+            print("Clip UID: ", clip_uid)
             for ann_datum in clip_datum["annotations"]:
                 key = (clip_uid, ann_datum["annotation_uid"])
+                print("Key: ", key)
+                print("Ann Datum: ", ann_datum)
                 gt_dict[key] = ann_datum
                 num_gt_queries += len(ann_datum["language_queries"])
+    
+    print("GT Dict: ", gt_dict)
 
     results = [[[] for _ in topK] for _ in thresholds]
     average_IoU = []
     num_instances = 0
     for pred_datum in predictions:
+        print("Pred Datum: ", pred_datum)
         key = (pred_datum["clip_uid"], pred_datum["annotation_uid"])
         assert key in gt_dict, "Instance not present!"
         query_id = pred_datum["query_idx"]
+        print("Query ID: ", query_id)
         gt_datum = gt_dict[key]
+        print("GT Datum: ", gt_datum)
         gt_query_datum = gt_datum["language_queries"][query_id]
 
         # Compute overlap and recalls.
@@ -108,6 +117,7 @@ def evaluate_nlq_performance(
             for rr, KK in enumerate(topK):
                 results[tt][rr].append((overlap > threshold)[:KK].any())
         num_instances += 1
+        break
 
     mean_results = np.array(results).mean(axis=-1)
     mIoU = np.mean(average_IoU)
