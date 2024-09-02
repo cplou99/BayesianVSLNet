@@ -119,15 +119,16 @@ def eval_test(
             prior_probs = [norm.pdf(np.arange(0, record['v_len']), bin_p[bs]*record['v_len'], int(record['v_len']/10)) for bs, record in enumerate(records)]
             prior_probs = [prob/max(prob) for prob in prior_probs]
             
+            bayesian_probs = []
             for bs, record in enumerate(records):
                 new_probs = prior_probs[bs]*all_probs[bs]
-                
+                bayesian_probs.append(new_probs.tolist())
             
             all_nn_probs = all_probs
             
             # Modified in version3
             num_times = [1 for record in records]
-            start_indices, end_indices = model.extract_index_from_probs(all_probs, num_times=num_times, num_text_queries=num_text_queries, topk=5) # The output should be two lists of length (batch_size, num_times, topk)
+            start_indices, end_indices = model.extract_index_from_probs(bayesian_probs, num_times=num_times, num_text_queries=num_text_queries, topk=5) # The output should be two lists of length (batch_size, num_times, topk)
             
 
             # Record output and use standard evalution script for NLQ.
