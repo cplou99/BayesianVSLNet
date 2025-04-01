@@ -1,7 +1,29 @@
-# BayesianVSLNet - Ego4D Step Grounding Challenge CVPR24 :trophy: 
+
+<h1 align="center">BayesianVSLNet - Temporal Video Segmentation with Natural Language using Text-Video Cross Attention and Bayesian Order-priors</h1>
+
+<div align="center">
+    <img src="docs/img/FALCONEyeLogo.png" alt="Description" width="150">
+</div>
+
+ <div align="center">
+    <a href="https://cplou99.github.io/web/" target="_blank">Carlos Plou</a>,
+    <a href="https://sites.google.com/unizar.es/lorenzo-mur-labadia/inicio" target="_blank">Lorenzo Mur</a>,
+    <a href="https://webdiis.unizar.es/~jguerrer/" target="_blank">Jose J. Guerrero</a>,
+    <a href="https://webdiis.unizar.es/~rmcantin/" target="_blank">Ruben Martinez-Cantin</a>,
+    <a href="https://sites.google.com/unizar.es/anac/home?authuser=0" target="_blank">Ana C. Murillo</a>,
+</div>
+
+
+<div align="center">
+   <a href="https://github.com/cplou99/BsaayesianV"><strong>🌍 Homepage</strong></a> | <a href="https://huggingface.co/datasets/cplou99/FALCON-Bench"><strong>🤗 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> 
+   </div>   
+      
+   
+Ego4D Step Grounding Challenge CVPR24 :trophy: 
 :soon:: We will release checkpoints and pre-extracted video features.
 
 [[ArXiv]](https://arxiv.org/abs/2406.09575) [[Leaderboard]](https://eval.ai/web/challenges/challenge-page/2188/leaderboard/5405)
+
 # Challenge
 The challenge is built over [Ego4d-GoalStep](https://github.com/facebookresearch/ego4d-goalstep?tab=readme-ov-file) dataset and code.
 
