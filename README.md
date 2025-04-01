@@ -22,7 +22,7 @@
 
 
 ## 🔔 News:
-- :soon:: We will release a paper with an improved BayesianVSLNet++ version together with checkpoints and pre-extracted video features.
+- :soon:: Paper with an improved BayesianVSLNet++ version together with checkpoints and pre-extracted video features.
 - 🔥 7/15/2024: Code released!
 - 😎 6/15/2024: [Poster](docs/img/poster.png) presentation at EgoVis Workshop during CVPR2024.
 - 🥳 6/10/2024: [Challenge report](https://arxiv.org/abs/2406.09575) is available on ArXiv!
