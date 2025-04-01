@@ -16,7 +16,7 @@
 
 
 <div align="center">
-   <a href="https://github.com/cplou99/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href=""><strong>📄 Paper (soon)</strong></a>
+   <a href="https://cplou99.github.io/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href=""><strong>📄 Paper (soon)</strong></a>
    </div>   
       
 
@@ -24,7 +24,7 @@
 ## 🔔 News:
 - :soon:: We will release a paper with an improved BayesianVSLNet++ version together with checkpoints and pre-extracted video features.
 - 🔥 7/15/2024: Code released!
-- 😎 6/15/2024: Poster presentation at EgoVis Workshop during CVPR2024.
+- 😎 6/15/2024: [Poster](docs/img/poster.png) presentation at EgoVis Workshop during CVPR2024.
 - 🥳 6/10/2024: [Challenge report](https://arxiv.org/abs/2406.09575) is available on ArXiv!
 - :trophy: 6/01/2024: BayesianVSLNet wins the Ego4D Step Grounding Challenge CVPR24.
 
