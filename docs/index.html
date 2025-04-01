@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+
+  <title>BayesianVSLNet</title>
+  <meta name="description" content="Temporal Video Segmentation with Natural Language using Text-Video Cross Attention and Bayesian Order-priors">
+  <meta name="keywords" content="swarms, generative models">
+
+  <meta property="og:title" content="BayesianVSLNet">
+  <meta property="og:description" content="Temporal Video Segmentation with Natural Language using Text-Video Cross Attention and Bayesian Order-priors">
+  <meta property="og:url" content="https://github.com/cplou99/BayesianVSLNet">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="BayesianVSLNet">
+  <meta name="twitter:description" content="Temporal Video Segmentation with Natural Language using Text-Video Cross Attention and Bayesian Order-priors">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="venue">Under review</div>
+    
+    <div style="display: flex; justify-content: center; position: relative; margin-bottom: 0;">
+      <img src="img/white.png" alt="Logo" style="width: 80px; height: auto; position: absolute; left: calc(50% - 230px); transform: translateX(-70%);">
+      <h1 class="title" style="font-size: 50px; font-family: 'Google Sans', 'Roboto', sans-serif; margin-bottom: 0; text-align: center;">
+        BayesianVSLNet
+      </h1>
+    </div>
+  
+    <p style="font-size: 30px; font-weight: 500; margin: 5px 0; line-height: 1.4; text-align: center; font-family: 'Google Sans', 'Roboto', sans-serif;">
+      Temporal Video Segmentation with Natural Language using Text-Video Cross Attention and Bayesian Order-priors
+    </p>
+  </header>
+
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <div class="authors">
+      <span><a href="https://cplou99.github.io/web">Carlos Plou</a><sup>*</sup></span>
+      <span><a href="https://sites.google.com/unizar.es/lorenzo-mur-labadia/inicio">Lorenzo Mur-Labadia</a><sup>*</sup></span>
+      <span><a href="https://webdiis.unizar.es/~jguerrer/">Jose J. Guerrero</a><sup></sup></span>
+      <span><a href="https://webdiis.unizar.es/~rmcantin/">Ruben Martinez-Cantin</a><sup></sup></span>
+      <span><a href="https://sites.google.com/unizar.es/anac">Ana C. Murillo</a><sup></sup></span>
+  </div>
+
+  <div class="notes">
+        <span><sup>*</sup>Joint first authors</span>
+    </div>
+
+  <div class="affiliations">
+        <span>DIIS-I3A, Universidad de Zaragoza, Spain</span>
+  </div>
+
+  <div class="links">
+      <a href="https://github.com/cplou99/BayesianVSLNet">
+        
+          <i class="bi bi-github"></i>
+        
+        Code
+      </a>
+      <a href="">
+        
+          <i class="ai ai-arxiv"></i>
+        
+        Paper (soon)
+      </a>
+      <a href="https://arxiv.org/abs/2406.09575">
+        
+          <i class="ai ai-arxiv"></i>
+        
+        Challenge Report
+      </a>
+      <a href="https://github.com/cplou99/BayesianVSLNet/blob/main/docs/img/poster.png">
+        
+          <i class="🪧 🪧"></i>
+        
+        Poster
+      </a>
+  </div>
+</header>
+
+<main>
+  <section class="content">
+    <style>
+    .btn-group button {
+        padding: 8px 16px;
+        margin: 5px;
+        font-size: 16px;
+        background-color: #444;
+        color: white;
+        border: 1px solid #444;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .btn-group button:hover {
+        background-color: #333;
+    }
+    .btn-group button img {
+        width: 18px;
+        height: 18px;
+    }
+    .links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: white !important;
+    background-color: #444 !important;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    gap: 8px;
+    }
+
+
+    .links a i {
+    margin-right: 5px;
+    }
+
+    h2 {
+        font-size: 2rem; /* Slightly larger for better visibility */
+        font-weight: 700; /* Bold */
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        text-align: center; /* Center-align */
+        font-family: 'Google Sans', 'Roboto', sans-serif; /* Matching title */
+        }
+
+    h3 {
+        font-size: 1.5rem; /* More prominent than before */
+        font-weight: 700; /* Bold */
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        text-align: center; /* Center-align */
+        font-family: 'Google Sans', 'Roboto', sans-serif; /* Matching title */
+    }
+
+    body {
+        font-family: 'Google Sans', 'Roboto', sans-serif;
+        color: var(--text-color);
+        line-height: 1.5em;
+        font-weight: 400;
+        background-color: white;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem;
+        font-size: 18px;
+    }
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: #444; /* Color oscuro y elegante */
+        margin: 30px auto 0px auto; /* Más espacio arriba, menos abajo */
+        opacity: 0.7; /* Ligera transparencia */
+        width: 80%; /* Un poco más corto para estilizar */
+    }
+
+    .sub-separator {
+        border: none;
+        height: 1px;
+        background-color: #666; /* A bit lighter */
+        margin: 20px auto 5px auto; /* Less space than main separator */
+        opacity: 0.5; /* More transparent */
+        width: 40%; /* Shorter width */
+    }
+
+    .small-image {
+        display: block;
+        max-width: 80%; /* Ajusta el tamaño según prefieras */
+        margin: 20px auto; /* Centra la imagen */
+        border-radius: 10px; /* Esquinas redondeadas para un toque más elegante */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    }
+
+    .small-image-simple {
+        display: block;
+        max-width: 80%; /* Ajusta el tamaño según prefieras */
+        margin: 20px auto; /* Centra la imagen */
+    }
+    
+    .tiny-image-simple {
+        display: block;
+        max-width: 60%; /* Ajusta el tamaño según prefieras */
+        margin: 20px auto; /* Centra la imagen */
+    }
+
+    .image-pair {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Espacio entre las imágenes */
+        margin: 20px auto; /* Margen superior e inferior */
+        width: 100%; /* Ocupa toda la anchura */
+    }
+
+    .image-pair img {
+        width: 48%; /* Cada imagen ocupa aproximadamente la mitad */
+        height: auto; /* Ajusta la altura proporcionalmente */
+        border-radius: 8px; /* Bordes redondeados */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    }
+
+
+
+</style>
+<hr>
+<h2 id="motivation">Motivation</h2>
+<p>The objective of the <strong>step grounding task</strong> is to localize the temporal boundaries of activities, described in free-form natural language, within long and untrimmed videos.</p>
+<img src="img/teaser.png" class="small-image-simple">
+<hr>
+<h2 id="bayesianvslnet">BayesianVSLNet</h2>
+<p>Our method, <strong>Bayesian-VSLNet</strong>, extends the VSLNet architecture which fails to <strong>address</strong> the two key challenges of the step grounding task: <strong>cyclic actions and long videos</strong>. First, Bayesian-VSLNet directly predicts, for each video segment, the probability of being associated with the text query, mitigating the adverse effects of repeated actions. Second, we introduce a novel test-time refinement strategy that leverages Bayes&rsquo; rule, incorporating temporal-order priors into our predictions. Additionally, we enhance our video representations by aggregating features from various video encoders: Omnivore-L, EgoVideo and EgoVLP-v2.</p>
+<figure>
+  <img src="img/model.png">
+</figure>
+<hr class="sub-separator">
+<h3 id="hyperparameters">Hyperparameters</h3>
+<p>During the Bayesian-based test-time refinement, two hyperpameters play a crucial role. β determines the variance of the prior that controls the smoothness of the posterior. Once we have the posterior, α sets the threshold (α-percentile of the posterior probability value) that controls the length of the predicted clip</p>
+<img src="img/hyperparams.png" class="tiny-image-simple">
+<hr class="sub-separator">
+<h3 id="metrics">Metrics</h3>
+<p>We propose two novel temporal grounding metrics: <strong>IoU-IndAll</strong> and <strong>IoU-Grouped</strong> which measure different aspects related to the step grounding task.</p>
+<img src="img/metrics.png" class="tiny-image-simple">
+<hr>
+<h2 id="results-ego4d-goal-step-dataset">Results: Ego4D Goal-Step dataset</h2>
+<hr class="sub-separator">
+<h3 id="quantitative-results">Quantitative results</h3>
+<p>EgoVis Workshop organized a challenge over <a href="https://github.com/facebookresearch/ego4d-goalstep?tab=readme-ov-file">Ego4d-GoalStep</a> dataset and code. You will find in the <a href="https://eval.ai/web/challenges/challenge-page/2188/leaderboard/5405">leaderboard</a> the results in the test set for our BayesianVSLNet-v0. This initial version is currently in the first place :rocket::fire:.</p>
+<p>Regarding the performance in the validation set, our proposed training and inference strategy enables Bayesian-VSLNet to significantly surpass the baseline VSLNet across all evaluated metrics.
+<img src="img/table_results.png" class="tiny-image-simple"></p>
+<hr class="sub-separator">
+<h3 id="qualitative-results">Qualitative results</h3>
+<p>Bayesian-VSLNet predicts the probability of each step description corresponding to a given video segment. Notably, similar descriptions (e.g., <em>&ldquo;Adds minced cocoa into milk?</em> vs. <em>&ldquo;Mix minced cocoa and milk together?</em> in the first example) yield nearly identical predictions. Our temporal ordering mechanism refines the BayesianVSLNet’s probability predictions, aligning them with the correct temporal sequence to enhance segmentation accuracy.</p>
+<img src="img/qualitative.png" class="small-image-simple">
+<hr class="sub-separator">
+<h2 id="case-study-robotics">Case study: Robotics</h2>
+<p>We present qualitative results in a <a href="https://mobile-aloha.github.io/">real-world assistive robotics scenario</a> to demonstrate the potential of our approach in enhancing human-robot interaction in practical applications. We select <a href="https://www.youtube.com/watch?v=HaaZ8ss-HP4&amp;t=3s">this mobile-ahoha video</a>.</p>
+<img src="img/qualitative_robotics.png" class="small-image-simple">
+<hr>
+<h2 id="bibtex">BibTeX</h2>
+<pre tabindex="0"><code>@misc{plou2024carlorego4dstep,
+      title={CARLOR @ Ego4D Step Grounding Challenge: Bayesian temporal-order priors for test time refinement}, 
+      author={Carlos Plou and Lorenzo Mur-Labadia and Ruben Martinez-Cantin and Ana C. Murillo},
+      year={2024},
+      eprint={2406.09575},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.09575}, 
+}
+</code></pre>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 RoPeRT Research Group, Universidad de Zaragoza
+</footer>
+
+
+</body>
+</html>
