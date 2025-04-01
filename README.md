@@ -3,7 +3,7 @@
 
 
 <div align="center">
-    <img src="docs/img/teaser.png" alt="Description" width="150">
+    <img src="docs/img/teaser.png" alt="Description" width="700">
 </div>
 
  <div align="center">
@@ -16,7 +16,7 @@
 
 
 <div align="center">
-   <a href="https://github.com/cplou99/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href=""><strong>Paper (soon)</strong></a> |
+   <a href="https://github.com/cplou99/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href=""><strong>Paper (soon)</strong></a>
    </div>   
       
 
@@ -39,14 +39,16 @@ We build our approach BayesianVSLNet: Bayesian temporal-order priors for test ti
 
 ## Quick start
 
-### Install
+### Install dependencies
+
 ```ruby
 git clone https://github.com/cplou99/BayesianVSLNet
+cd BayesianVSLNet
 pip install -r requirements.txt
 ```
 
 ### Video Features
-We use both Omnivore-L and EgoVLPv2 video features. They should be pre-extracted and located at ./ego4d-goalstep/step-grounding/data/features/.
+We use both Omnivore-L, EgoVideo and EgoVLPv2 video features. They should be pre-extracted and located at ./ego4d-goalstep/step-grounding/data/features/.
 
 ### Model 
 It is necessary to locate the EgoVLPv2 weights to extract text features in BayesianVSLNet/NaQ/VSLNet_Bayesian/model/EgoVLP_weights.
@@ -76,3 +78,25 @@ The challenge is built over [Ego4d-GoalStep](https://github.com/facebookresearch
 </div>
 
 You will find in the [leaderboard](https://eval.ai/web/challenges/challenge-page/2188/leaderboard/5405) :rocket: the results in the test set for the best approaches. Our method is currently in the first place :rocket::fire:.
+
+### Case study: Robotics
+We present qualitative results in a [real-world assistive robotics scenario](https://mobile-aloha.github.io/) to demonstrate the potential of our approach in enhancing human-robot interaction in practical applications.
+
+ <div align="center">
+ <img src="docs/img/qualitative_robotics.png" alt="Challenge" width="700"/>
+</div>
+
+
+
+## 📝 Citation
+```
+@misc{plou2024carlorego4dstep,
+      title={CARLOR @ Ego4D Step Grounding Challenge: Bayesian temporal-order priors for test time refinement}, 
+      author={Carlos Plou and Lorenzo Mur-Labadia and Ruben Martinez-Cantin and Ana C. Murillo},
+      year={2024},
+      eprint={2406.09575},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.09575}, 
+}
+```
