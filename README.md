@@ -8,7 +8,7 @@
 
  <div align="center">
     <a href="https://cplou99.github.io/web/" target="_blank">Carlos Plou*</a>,
-    <a href="https://sites.google.com/unizar.es/lorenzo-mur-labadia/inicio" target="_blank">Lorenzo Mur*</a>,
+    <a href="https://sites.google.com/unizar.es/lorenzo-mur-labadia/inicio" target="_blank">Lorenzo Mur-Labadia*</a>,
     <a href="https://webdiis.unizar.es/~jguerrer/" target="_blank">Jose J. Guerrero</a>,
     <a href="https://webdiis.unizar.es/~rmcantin/" target="_blank">Ruben Martinez-Cantin</a>,
     <a href="https://sites.google.com/unizar.es/anac/home?authuser=0" target="_blank">Ana C. Murillo</a>,
