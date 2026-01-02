@@ -111,3 +111,7 @@ We present qualitative results in a [real-world assistive robotics scenario](htt
     url={https://arxiv.org/abs/2406.09575}, 
 }
 ```
+
+## Acknowledgements
+
+This work was supported by a DGA scholarship and by DGA project T45_23R, and grants AIA2025-163563-C31, PID2024-159284NB-I00, PID2021-125209OB-I00, PID2021-125514NB-I00 and PID2024-158322OB-I00 funded by MCIN/AEI/10.13039/501100011033 and ERDF.
