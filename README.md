@@ -91,23 +91,23 @@ We present qualitative results in a [real-world assistive robotics scenario](htt
 ## 📝 Citation
 ```
 @article{PLOU2025104622,
-title = {Temporal video segmentation with natural language using text-video cross attention and Bayesian order-priors},
-journal = {Computer Vision and Image Understanding},
-pages = {104622},
-year = {2025},
-issn = {1077-3142},
-doi = {https://doi.org/10.1016/j.cviu.2025.104622},
-url = {https://www.sciencedirect.com/science/article/pii/S1077314225003455},
-author = {Carlos Plou and Lorenzo Mur-Labadia and Jose J. Guerrero and Ruben Martinez-Cantin and Ana C. Murillo}
+    title = {Temporal video segmentation with natural language using text-video cross attention and Bayesian order-priors},
+    journal = {Computer Vision and Image Understanding},
+    pages = {104622},
+    year = {2025},
+    issn = {1077-3142},
+    doi = {https://doi.org/10.1016/j.cviu.2025.104622},
+    url = {https://www.sciencedirect.com/science/article/pii/S1077314225003455},
+    author = {Carlos Plou and Lorenzo Mur-Labadia and Jose J. Guerrero and Ruben Martinez-Cantin and Ana C. Murillo}
 }
 
 @misc{plou2024carlorego4dstep,
-      title={CARLOR @ Ego4D Step Grounding Challenge: Bayesian temporal-order priors for test time refinement}, 
-      author={Carlos Plou and Lorenzo Mur-Labadia and Ruben Martinez-Cantin and Ana C. Murillo},
-      year={2024},
-      eprint={2406.09575},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2406.09575}, 
+    title={CARLOR @ Ego4D Step Grounding Challenge: Bayesian temporal-order priors for test time refinement}, 
+    author={Carlos Plou and Lorenzo Mur-Labadia and Ruben Martinez-Cantin and Ana C. Murillo},
+    year={2024},
+    eprint={2406.09575},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2406.09575}, 
 }
 ```
