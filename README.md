@@ -1,6 +1,6 @@
 
 <h1 align="center">BayesianVSLNet - Temporal Video Segmentation with Natural Language using Text-Video Cross Attention and Bayesian Order-priors</h1>
-
+<h3 align="center">CVIU 2026</h3>
 
 <div align="center">
     <img src="docs/img/teaser.png" alt="Description" width="700">
@@ -16,16 +16,16 @@
 
 
 <div align="center">
-   <a href="https://cplou99.github.io/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href="https://www.sciencedirect.com/science/article/pii/S1077314225003455"><strong>📄 Paper </strong></a>
+   <a href="https://cplou99.github.io/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="https://www.sciencedirect.com/science/article/pii/S1077314225003455"><strong>📄 Paper </strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |
    </div>   
       
 
 
 ## 🔔 News:
-- :soon:: Paper with an improved BayesianVSLNet++ version together with checkpoints and pre-extracted video features.
-- 🔥 7/15/2024: Code released!
-- 😎 6/15/2024: [Poster](docs/img/poster.png) presentation at EgoVis Workshop during CVPR2024.
-- 🥳 6/10/2024: [Challenge report](https://arxiv.org/abs/2406.09575) is available on ArXiv!
+- 🆕 12/2025: Paper with an improved BayesianVSLNet++ version accepted at CVIU.
+- 🔥 7/2024: Code released!
+- 😎 6/2024: [Poster](docs/img/poster.png) presentation at EgoVis Workshop during CVPR2024.
+- 🥳 6/2024: [Challenge report](https://arxiv.org/abs/2406.09575) is available on ArXiv!
 - :trophy: 6/01/2024: BayesianVSLNet wins the Ego4D Step Grounding Challenge CVPR24.
 
 
