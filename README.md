@@ -1,6 +1,6 @@
 
 <h1 align="center">BayesianVSLNet - Temporal Video Segmentation with Natural Language using Text-Video Cross Attention and Bayesian Order-priors</h1>
-<h3 align="center">CVIU 2026</h3>
+<h3 align="center">CVIU 2025</h3>
 
 <div align="center">
     <img src="docs/img/teaser.png" alt="Description" width="700">
