@@ -16,7 +16,7 @@
 
 
 <div align="center">
-   <a href="https://cplou99.github.io/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href=""><strong>📄 Paper (soon)</strong></a>
+   <a href="https://cplou99.github.io/BayesianVSLNet"><strong>🌍 Homepage</strong></a> | <a href="docs/img/poster.png"><strong> 🪧 Poster</strong></a> |  <a href="https://arxiv.org/abs/2406.09575"><strong>📝 Challenge Report </strong></a> | <a href="https://www.sciencedirect.com/science/article/pii/S1077314225003455"><strong>📄 Paper </strong></a>
    </div>   
       
 
